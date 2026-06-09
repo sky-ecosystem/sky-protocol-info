@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/endgame-toolkit/branch-master"
     checked_out_branch: master
     pinned_commit: db3cc6a4cc4852f3677055b7a37dbd0492ce2f9c
 - id: endgame-toolkit-commit-70b5-a95
@@ -26,7 +26,7 @@ repositories:
   - script
   - src
   checkout:
-    submodule_path: "./commit-70b5-a95"
+    submodule_path: "./codebases/endgame-toolkit/commit-70b5-a95"
     checked_out_branch: HEAD
     pinned_commit: 70b59deb7201758fcb7b81497a09c30b8aacda95
 ```
@@ -43,7 +43,7 @@ deployments:
   address: '0x3300f198988e4C9C63F75dF86De36421f06af8c4'
   implementation:
     codebase: endgame-toolkit
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/endgame-toolkit/branch-master"
     source_path: src/SubProxy.sol
     contract_name: SubProxy
     compiler:
@@ -58,7 +58,7 @@ deployments:
   address: '0xc20059e0317DE91738d13af027DfC4a50781b066'
   implementation:
     codebase: endgame-toolkit
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/endgame-toolkit/branch-master"
     source_path: src/SDAO.sol
     contract_name: SDAO
     compiler:
@@ -74,7 +74,7 @@ deployments:
   address: '0xC8d67Fcf101d3f89D0e1F3a2857485A84072a63F'
   implementation:
     codebase: endgame-toolkit
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/endgame-toolkit/branch-master"
     source_path: src/VestedRewardsDistribution.sol
     contract_name: VestedRewardsDistribution
     compiler:

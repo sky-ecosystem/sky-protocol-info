@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     checked_out_branch: master
     pinned_commit: fa4f6630afb0624d04a003e920b0d71a00331d98
 - id: dss-v1-2
@@ -25,7 +25,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     checked_out_branch: v1.2
     pinned_commit: 38f618c54ff27d278eacc58d543e01bd08a88680
 ```
@@ -42,7 +42,7 @@ deployments:
   address: '0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/vat.sol
     contract_name: Vat
     compiler:
@@ -57,7 +57,7 @@ deployments:
   address: '0xA950524441892A31ebddF91d3cEEFa04Bf454466'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/vow.sol
     contract_name: Vow
     compiler:
@@ -72,7 +72,7 @@ deployments:
   address: '0x65C79fcB50Ca1594B025960e539eD7A9a6D434A3'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/spot.sol
     contract_name: Spotter
     compiler:
@@ -87,7 +87,7 @@ deployments:
   address: '0x19c0976f590D67707E62397C87829d896Dc0f1F1'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/jug.sol
     contract_name: Jug
     compiler:
@@ -102,7 +102,7 @@ deployments:
   address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/dai.sol
     contract_name: Dai
     compiler:
@@ -117,7 +117,7 @@ deployments:
   address: '0x9759A6Ac90977b93B58547b4A71c78317f391A28'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/join.sol
     contract_name: DaiJoin
     compiler:
@@ -132,7 +132,7 @@ deployments:
   address: '0x2F0b23f53734252Bda2277357e97e1517d6B042A'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/join.sol
     contract_name: GemJoin
     compiler:
@@ -147,7 +147,7 @@ deployments:
   address: '0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7'
   implementation:
     codebase: dss-v1-2
-    submodule_path: "./branch-v1.2"
+    submodule_path: "./codebases/dss/branch-v1.2"
     source_path: src/pot.sol
     contract_name: Pot
     compiler:
@@ -162,7 +162,7 @@ deployments:
   address: '0x135954d155898D42C90D2a57824C690e0c7BEf1B'
   implementation:
     codebase: dss-master
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     source_path: src/dog.sol
     contract_name: Dog
     compiler:
@@ -177,7 +177,7 @@ deployments:
   address: '0xc67963a226eddd77B91aD8c421630A1b0AdFF270'
   implementation:
     codebase: dss-master
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     source_path: src/clip.sol
     contract_name: Clipper
     compiler:
@@ -192,7 +192,7 @@ deployments:
   address: '0x7d9f92DAa9254Bbd1f479DBE5058f74C2381A898'
   implementation:
     codebase: dss-master
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     source_path: src/abaci.sol
     contract_name: StairstepExponentialDecrease
     compiler:
@@ -204,7 +204,7 @@ deployment_gaps:
   contract_name: LinearDecrease
   implementation:
     codebase: dss-master
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     source_path: src/abaci.sol
     contract_name: LinearDecrease
     compiler:
@@ -215,7 +215,7 @@ deployment_gaps:
   contract_name: ExponentialDecrease
   implementation:
     codebase: dss-master
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss/branch-master"
     source_path: src/abaci.sol
     contract_name: ExponentialDecrease
     compiler:

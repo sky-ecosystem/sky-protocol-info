@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flash/branch-master"
     checked_out_branch: master
     pinned_commit: 9d492aa6148c35f568400a1ab85cd6df43b2ccc8
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x60744434d6339a6B27d73d9Eda62b6F66a0a04FA'
   implementation:
     codebase: dss-flash
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flash/branch-master"
     source_path: src/flash.sol
     contract_name: DssFlash
     compiler:

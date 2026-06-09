@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sp-beam/branch-master"
     checked_out_branch: master
     pinned_commit: bc8857955fa0245b015d45ec661ab4757925db44
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x36B072ed8AFE665E3Aa6DaBa79Decbec63752b22'
   implementation:
     codebase: sp-beam
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sp-beam/branch-master"
     source_path: src/SPBEAM.sol
     contract_name: SPBEAM
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xf0C6e6Ec8B367cC483A411e595D3Ba0a816d37D0'
   implementation:
     codebase: sp-beam
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sp-beam/branch-master"
     source_path: src/SPBEAMMom.sol
     contract_name: SPBEAMMom
     compiler:

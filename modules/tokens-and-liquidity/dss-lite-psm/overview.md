@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/dss-lite-psm/branch-main"
     checked_out_branch: main
     pinned_commit: dbf0022225f645f5697e5517d0cf00810471bccf
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0xf6e72Db5454dd049d0788e411b06CfAF16853042'
   implementation:
     codebase: dss-lite-psm
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/dss-lite-psm/branch-main"
     source_path: src/DssLitePsm.sol
     contract_name: DssLitePsm
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x467b32b0407Ad764f56304420Cddaa563bDab425'
   implementation:
     codebase: dss-lite-psm
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/dss-lite-psm/branch-main"
     source_path: src/DssLitePsmMom.sol
     contract_name: DssLitePsmMom
     compiler:

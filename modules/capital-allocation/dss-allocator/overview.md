@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-dev"
+    submodule_path: "./codebases/dss-allocator/branch-dev"
     checked_out_branch: dev
     pinned_commit: 6e99d87374cff66e93fe44c55d4ed240dac1c3dc
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x691a6c29e9e96dd897718305427Ad5D534db16BA'
   implementation:
     codebase: dss-allocator
-    submodule_path: "./branch-dev"
+    submodule_path: "./codebases/dss-allocator/branch-dev"
     source_path: src/AllocatorVault.sol
     contract_name: AllocatorVault
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xc395D150e71378B47A1b8E9de0c1a83b75a08324'
   implementation:
     codebase: dss-allocator
-    submodule_path: "./branch-dev"
+    submodule_path: "./codebases/dss-allocator/branch-dev"
     source_path: src/AllocatorBuffer.sol
     contract_name: AllocatorBuffer
     compiler:
@@ -62,7 +62,7 @@ deployments:
   address: '0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B'
   implementation:
     codebase: dss-allocator
-    submodule_path: "./branch-dev"
+    submodule_path: "./codebases/dss-allocator/branch-dev"
     source_path: src/AllocatorRegistry.sol
     contract_name: AllocatorRegistry
     compiler:
@@ -78,7 +78,7 @@ deployments:
   address: '0x9A865A710399cea85dbD9144b7a09C889e94E803'
   implementation:
     codebase: dss-allocator
-    submodule_path: "./branch-dev"
+    submodule_path: "./codebases/dss-allocator/branch-dev"
     source_path: src/AllocatorRoles.sol
     contract_name: AllocatorRoles
     compiler:

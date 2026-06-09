@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/stusds/branch-master"
     checked_out_branch: master
     pinned_commit: 486bfe342c01afab7387a920dfcd7eeaaf91f4b7
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x7A61B7adCFD493f7CF0F86dFCECB94b72c227F22'
   implementation:
     codebase: stusds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/stusds/branch-master"
     source_path: src/StUsds.sol
     contract_name: StUsds
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: Address pending to be deployed with latest version
   implementation:
     codebase: stusds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/stusds/branch-master"
     source_path: src/StUsdsMom.sol
     contract_name: StUsdsMom
     compiler:
@@ -62,7 +62,7 @@ deployments:
   address: '0x30784615252B13E1DbE2bDf598627eaC297Bf4C5'
   implementation:
     codebase: stusds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/stusds/branch-master"
     source_path: src/StUsdsRateSetter.sol
     contract_name: StUsdsRateSetter
     compiler:

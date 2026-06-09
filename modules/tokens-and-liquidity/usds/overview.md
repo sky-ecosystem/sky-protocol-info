@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/usds/branch-master"
     checked_out_branch: master
     pinned_commit: d65551dbc11cfe1afcc4718ab790663b99d766af
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x1923DfeE706A8E78157416C29cBCCFDe7cdF4102'
   implementation:
     codebase: usds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/usds/branch-master"
     source_path: src/Usds.sol
     contract_name: Usds
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x3C0f895007CA717Aa01c8693e59DF1e8C3777FEB'
   implementation:
     codebase: usds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/usds/branch-master"
     source_path: src/UsdsJoin.sol
     contract_name: UsdsJoin
     compiler:
@@ -62,7 +62,7 @@ deployments:
   address: '0x3225737a9Bbb6473CB4a45b7244ACa2BeFdB276A'
   implementation:
     codebase: usds
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/usds/branch-master"
     source_path: src/DaiUsds.sol
     contract_name: DaiUsds
     compiler:

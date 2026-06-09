@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-auto-line/branch-master"
     checked_out_branch: master
     pinned_commit: bff7e6cc43dbd7d9a054dd359ef18a1b4d06b6f5
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0xC7Bdd1F2B16447dcf3dE045C4a039A60EC2f0ba3'
   implementation:
     codebase: dss-auto-line
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-auto-line/branch-master"
     source_path: src/DssAutoLine.sol
     contract_name: DssAutoLine
     compiler:

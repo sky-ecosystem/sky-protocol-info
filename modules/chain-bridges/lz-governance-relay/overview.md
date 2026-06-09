@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lz-governance-relay/branch-master"
     checked_out_branch: master
     pinned_commit: ff964bb030fd84f6f0d9718aa585fc90fdc9989e
 - id: lz-governance-relay-commit-d3e3-d4ef
@@ -25,7 +25,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./commit-d3e3-d4ef"
+    submodule_path: "./codebases/lz-governance-relay/commit-d3e3-d4ef"
     checked_out_branch: HEAD
     pinned_commit: d3e3df4db417f196fdd56123e7dbb462d04f32ef
 ```
@@ -42,7 +42,7 @@ deployments:
   address: '0x2beBFe397D497b66cB14461cB6ee467b4C3B7D61'
   implementation:
     codebase: lz-governance-relay
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lz-governance-relay/branch-master"
     source_path: src/L1GovernanceRelay.sol
     contract_name: L1GovernanceRelay
     compiler:
@@ -58,7 +58,7 @@ deployments:
   address: '0xe928885BCe799Ed933651715608155F01abA23cA'
   implementation:
     codebase: lz-governance-relay
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lz-governance-relay/branch-master"
     source_path: src/L2GovernanceRelay.sol
     contract_name: L2GovernanceRelay
 ```

@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     checked_out_branch: master
     pinned_commit: 82918f4853d50c6520dac53fdb70a42fd4ce671b
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b'
   implementation:
     codebase: op-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     source_path: src/L1GovernanceRelay.sol
     contract_name: L1GovernanceRelay
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255'
   implementation:
     codebase: op-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     source_path: src/L2GovernanceRelay.sol
     contract_name: L2GovernanceRelay
 - id: l1-token-bridge-ethereum
@@ -57,7 +57,7 @@ deployments:
   address: '0xaeFd31c2e593Dc971f9Cb42cBbD5d4AD7F1970b6'
   implementation:
     codebase: op-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     source_path: src/L1TokenBridge.sol
     contract_name: L1TokenBridge
     compiler:
@@ -73,7 +73,7 @@ deployments:
   address: '0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7'
   implementation:
     codebase: op-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     source_path: src/L2TokenBridge.sol
     contract_name: L2TokenBridge
 - id: escrow-ethereum
@@ -84,7 +84,7 @@ deployments:
   address: '0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3'
   implementation:
     codebase: op-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/op-token-bridge/branch-master"
     source_path: src/Escrow.sol
     contract_name: Escrow
     compiler:

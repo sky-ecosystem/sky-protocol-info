@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/chief/branch-master"
     checked_out_branch: master
     pinned_commit: ed7f9129319ee11d79f5d9948e0f7fce7e4dfeff
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9'
   implementation:
     codebase: chief
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/chief/branch-master"
     source_path: src/Chief.sol
     contract_name: Chief
     compiler:

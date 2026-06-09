@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flappers/branch-master"
     checked_out_branch: master
     pinned_commit: ed90ec22b9da12f45e99b8dc2da5a9df48807780
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x374D9c3d5134052Bc558F432Afa1df6575f07407'
   implementation:
     codebase: dss-flappers
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flappers/branch-master"
     source_path: src/FlapperUniV2SwapOnly.sol
     contract_name: FlapperUniV2SwapOnly
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xD889477102e8C4A857b78Fcc2f134535176Ec1Fc'
   implementation:
     codebase: dss-flappers
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flappers/branch-master"
     source_path: src/Kicker.sol
     contract_name: Kicker
     compiler:
@@ -62,7 +62,7 @@ deployments:
   address: '0xBF7111F13386d23cb2Fba5A538107A73f6872bCF'
   implementation:
     codebase: dss-flappers
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flappers/branch-master"
     source_path: src/Splitter.sol
     contract_name: Splitter
     compiler:
@@ -78,7 +78,7 @@ deployments:
   address: '0xF51a075d468dE7dE3599C1Dc47F5C42d02C9230e'
   implementation:
     codebase: dss-flappers
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-flappers/branch-master"
     source_path: src/SplitterMom.sol
     contract_name: SplitterMom
     compiler:

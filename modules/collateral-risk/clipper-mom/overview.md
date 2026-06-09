@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/clipper-mom/branch-master"
     checked_out_branch: master
     pinned_commit: 1473b448cc9141fb0c56146f8b5b28db57b39739
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x79FBDF16b366DFb14F66cE4Ac2815Ca7296405A0'
   implementation:
     codebase: clipper-mom
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/clipper-mom/branch-master"
     source_path: src/ClipperMom.sol
     contract_name: ClipperMom
     compiler:

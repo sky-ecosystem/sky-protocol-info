@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/star-guard/branch-main"
     checked_out_branch: main
     pinned_commit: 52239d716a89188b303f137fc43fb9288735ba2e
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x6605aa120fe8b656482903E7757BaBF56947E45E'
   implementation:
     codebase: star-guard
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/star-guard/branch-main"
     source_path: src/StarGuard.sol
     contract_name: StarGuard
     compiler:

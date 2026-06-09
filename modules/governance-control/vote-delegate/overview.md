@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/vote-delegate/branch-master"
     checked_out_branch: master
     pinned_commit: 6d9359e58a452c28425121900a3b1b4ca3317ead
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0xd112008aa18607Ec1401ff9c7f1943B460628553'
   implementation:
     codebase: vote-delegate
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/vote-delegate/branch-master"
     source_path: src/VoteDelegate.sol
     contract_name: VoteDelegate
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x4Cf3DaeFA2683Cd18df00f7AFF5169C00a9EccD5'
   implementation:
     codebase: vote-delegate
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/vote-delegate/branch-master"
     source_path: src/VoteDelegateFactory.sol
     contract_name: VoteDelegateFactory
     compiler:

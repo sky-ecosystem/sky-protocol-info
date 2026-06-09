@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-vest/branch-master"
     checked_out_branch: master
     pinned_commit: e9e6a779fc0ab8b05711fba190765f50bb1d77a2
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x67eaDb3288cceDe034cE95b0511DCc65cf630bB6'
   implementation:
     codebase: dss-vest
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/dss-vest/branch-master"
     source_path: src/DssVest.sol
     contract_name: DssVestTransferrable
     compiler:

@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sky/branch-master"
     checked_out_branch: master
     pinned_commit: db6687a5e8dca8de1f3e86887d6ab5b66921b9af
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x56072C95FAA701256059aa122697B133aDEd9279'
   implementation:
     codebase: sky
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sky/branch-master"
     source_path: src/Sky.sol
     contract_name: Sky
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xA1Ea1bA18E88C381C724a75F23a130420C403f9a'
   implementation:
     codebase: sky
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/sky/branch-master"
     source_path: src/MkrSky.sol
     contract_name: MkrSky
     compiler:

@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     checked_out_branch: master
     pinned_commit: e389dc18fa21b5ae460714522a9f484d0b1b9f30
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0xCe01C90dE7FD1bcFa39e237FE6D8D9F569e8A6a3'
   implementation:
     codebase: lockstake
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     source_path: src/LockstakeEngine.sol
     contract_name: LockstakeEngine
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x836F56750517b1528B5078Cba4Ac4B94fBE4A399'
   implementation:
     codebase: lockstake
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     source_path: src/LockstakeClipper.sol
     contract_name: LockstakeClipper
     compiler:
@@ -62,7 +62,7 @@ deployments:
   address: '0xf9A9cfD3229E985B91F99Bc866d42938044FFa1C'
   implementation:
     codebase: lockstake
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     source_path: src/LockstakeSky.sol
     contract_name: LockstakeSky
     compiler:
@@ -78,7 +78,7 @@ deployments:
   address: '0x0C13fF3DC02E85aC169c4099C09c9B388f2943Fd'
   implementation:
     codebase: lockstake
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     source_path: src/LockstakeCappedOsmWrapper.sol
     contract_name: LockstakeCappedOsmWrapper
     compiler:
@@ -91,7 +91,7 @@ deployment_gaps:
   contract_name: LockstakeUrn
   implementation:
     codebase: lockstake
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/lockstake/branch-master"
     source_path: src/LockstakeUrn.sol
     contract_name: LockstakeUrn
     compiler:

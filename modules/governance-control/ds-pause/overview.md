@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/ds-pause/branch-master"
     checked_out_branch: master
     pinned_commit: 5e798dd96bfaac978cd9fe3c0259b486e8afd213
 - id: ds-pause-commit-81fd-ce3
@@ -25,7 +25,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./commit-81fd-ce3"
+    submodule_path: "./codebases/ds-pause/commit-81fd-ce3"
     checked_out_branch: HEAD
     pinned_commit: 81fd9d43e56615267a10e29710716342bcca0ce3
 ```
@@ -42,7 +42,7 @@ deployments:
   address: '0xbE286431454714F511008713973d3B053A2d38f3'
   implementation:
     codebase: ds-pause
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/ds-pause/branch-master"
     source_path: src/pause.sol
     contract_name: DSPause
     compiler:
@@ -57,7 +57,7 @@ deployments:
   address: '0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB'
   implementation:
     codebase: ds-pause
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/ds-pause/branch-master"
     source_path: src/pause.sol
     contract_name: DSPauseProxy
     compiler:

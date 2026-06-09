@@ -14,7 +14,7 @@ repositories:
   - src
   - src/l2
   checkout:
-    submodule_path: "./branch-susds"
+    submodule_path: "./codebases/sdai/branch-susds"
     checked_out_branch: susds
     pinned_commit: dfc7f41cb7599afcb0f0eb1ddaadbf9dd4015dce
 ```
@@ -31,7 +31,7 @@ deployments:
   address: '0x4e7991e5C547ce825BdEb665EE14a3274f9F61e0'
   implementation:
     codebase: sdai
-    submodule_path: "./branch-susds"
+    submodule_path: "./codebases/sdai/branch-susds"
     source_path: src/SUsds.sol
     contract_name: SUsds
     compiler:
@@ -44,7 +44,7 @@ deployment_gaps:
   contract_name: SUsds (L2)
   implementation:
     codebase: sdai
-    submodule_path: "./branch-susds"
+    submodule_path: "./codebases/sdai/branch-susds"
     source_path: src/l2/SUsds.sol
     contract_name: SUsds (L2)
     compiler:

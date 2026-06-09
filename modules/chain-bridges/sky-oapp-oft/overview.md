@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - contracts
   checkout:
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     checked_out_branch: main
     pinned_commit: 0baba10c77a5cdfcef8fe9611e38d4306ab827a7
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x27FC1DD771817b53bE48Dc28789533BEa53C9CCA'
   implementation:
     codebase: sky-oapp-oft
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     source_path: contracts/GovernanceOAppSender.sol
     contract_name: GovernanceOAppSender
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x6fdd46947ca6903c8c159d1dF2012Bc7fC5cEeec'
   implementation:
     codebase: sky-oapp-oft
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     source_path: contracts/GovernanceOAppReceiver.sol
     contract_name: GovernanceOAppReceiver
 - id: sky-oft-adapter-ethereum
@@ -57,7 +57,7 @@ deployments:
   address: '0x1e1D42781FC170EF9da004Fb735f56F0276d01B8'
   implementation:
     codebase: sky-oapp-oft
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     source_path: contracts/SkyOFTAdapter.sol
     contract_name: SkyOFTAdapter
     compiler:
@@ -73,7 +73,7 @@ deployments:
   address: '0x4fec40719fD9a8AE3F8E20531669DEC5962D2619'
   implementation:
     codebase: sky-oapp-oft
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     source_path: contracts/SkyOFTAdapterMintBurn.sol
     contract_name: SkyOFTAdapterMintBurn(USDS)
 - id: sky-oft-adapter-mint-burn-s-usds-avalanche
@@ -84,7 +84,7 @@ deployments:
   address: '0x7297D4811f088FC26bC5475681405B99b41E1FF9'
   implementation:
     codebase: sky-oapp-oft
-    submodule_path: "./branch-main"
+    submodule_path: "./codebases/sky-oapp-oft/branch-main"
     source_path: contracts/SkyOFTAdapterMintBurn.sol
     contract_name: SkyOFTAdapterMintBurn(sUSDS)
 ```

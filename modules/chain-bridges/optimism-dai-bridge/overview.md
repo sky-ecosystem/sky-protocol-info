@@ -14,7 +14,7 @@ repositories:
   - contracts/l1
   - contracts/l2
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     checked_out_branch: master
     pinned_commit: bc3d63f5da2fd34ebb90369c90f2ea57e51cbca0
 ```
@@ -31,7 +31,7 @@ deployments:
   address: '0x10E6593CDda8c58a1d0f14C5164B376352a55f2F'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l1/L1DAITokenBridge.sol
     contract_name: L1DAITokenBridge
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l1/L1GovernanceRelay.sol
     contract_name: L1GovernanceRelay
     compiler:
@@ -61,7 +61,7 @@ deployments:
   address: '0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l1/L1Escrow.sol
     contract_name: L1Escrow
     compiler:
@@ -76,7 +76,7 @@ deployments:
   address: '0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l2/L2DAITokenBridge.sol
     contract_name: L2DAITokenBridge
 - id: l2-governance-relay-optimism
@@ -87,7 +87,7 @@ deployments:
   address: '0x10E6593CDda8c58a1d0f14C5164B376352a55f2F'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l2/L2GovernanceRelay.sol
     contract_name: L2GovernanceRelay
 - id: dai-l2-optimism
@@ -98,7 +98,7 @@ deployments:
   address: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1'
   implementation:
     codebase: optimism-dai-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/optimism-dai-bridge/branch-master"
     source_path: contracts/l2/dai.sol
     contract_name: Dai (L2)
 ```

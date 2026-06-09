@@ -21,15 +21,29 @@ GNU Affero General Public License v3.0
 Copyright 2021 Maker Ecosystem Growth Holdings, INC.
 
 ds-pause
-GNU Affero General Public License v3.0
-Copyright 2019 David Terry <me@xwvvvvwx.com>
+
+  ds-pause
+  GNU Affero General Public License v3.0
+  Copyright 2019 David Terry <me@xwvvvvwx.com>
+
+  ds-pause-commit-81fd-ce3
+  GNU Affero General Public License v3.0
+  Copyright 2019 David Terry <me@xwvvvvwx.com>
 
 dss
-GNU Affero General Public License v3.0
-Copyright 2020-2022 Dai Foundation
-Copyright 2017, 2018, 2019 dbrock, rain, mrchico
-Copyright 2018 Lev Livnev <lev@liv.nev.org.uk>
-Copyright 2018 Rain <rainbreak@riseup.net>
+
+  dss-master
+  GNU Affero General Public License v3.0
+  Copyright 2020-2022 Dai Foundation
+  Copyright 2018 Lev Livnev <lev@liv.nev.org.uk>
+  Copyright 2018 Rain <rainbreak@riseup.net>
+  Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+  dss-v1-2
+  GNU Affero General Public License v3.0
+  Copyright 2018 Lev Livnev <lev@liv.nev.org.uk>
+  Copyright 2018 Rain <rainbreak@riseup.net>
+  Copyright 2017, 2018, 2019 dbrock, rain, mrchico
 
 dss-allocator
 GNU Affero General Public License v3.0
@@ -60,10 +74,20 @@ GNU Affero General Public License v3.0
 Copyright 2021 Dai Foundation
 
 endgame-toolkit
-GNU Affero General Public License v3.0
-Copyright 2023 Dai Foundation <www.daifoundation.org>
-Copyright 2019-2021 Synthetix
-Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+  endgame-toolkit
+  GNU Affero General Public License v3.0
+  MIT License
+  Copyright 2023 Dai Foundation <www.daifoundation.org>
+  Copyright 2019-2021 Synthetix
+  Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+  endgame-toolkit-commit-70b5-a95
+  GNU Affero General Public License v3.0
+  MIT License
+  Copyright 2023 Dai Foundation <www.daifoundation.org>
+  Copyright 2019-2021 Synthetix
+  Copyright 2017, 2018, 2019 dbrock, rain, mrchico
 
 line-mom
 GNU Affero General Public License v3.0
@@ -77,8 +101,14 @@ Copyright 2021 Dai Foundation <www.daifoundation.org>
 Copyright 2017, 2018, 2019 dbrock, rain, mrchico
 
 lz-governance-relay
-GNU Affero General Public License v3.0
-Copyright 2025 Dai Foundation
+
+  lz-governance-relay
+  GNU Affero General Public License v3.0
+  Copyright 2025 Dai Foundation
+
+  lz-governance-relay-commit-d3e3-d4ef
+  GNU Affero General Public License v3.0
+  Copyright 2025 Dai Foundation
 
 op-token-bridge
 GNU Affero General Public License v3.0
@@ -107,8 +137,58 @@ sp-beam
 AGPL-3.0-or-later
 Copyright 2025 Dai Foundation <www.daifoundation.org>
 
-spark-psm
+spark-alm-controller
 GNU Affero General Public License v3.0
+
+spark-governance
+
+  spark-gov-relay
+  GNU Affero General Public License v3.0
+
+  xchain-helpers-commit-33baf1e
+  GNU Affero General Public License v3.0
+
+spark-lend
+
+  sparklend-advanced
+  GNU Affero General Public License v3.0
+
+  sparklend-cap-automator
+  GNU Affero General Public License v3.0
+
+  sparklend-freezer
+  GNU Affero General Public License v3.0
+
+  sparklend-kill-switch
+  GNU Affero General Public License v3.0
+
+  sparklend-testing
+  GNU Affero General Public License v3.0
+  MIT License (src/UserActions.sol)
+
+  sparklend-v1-core
+  Business Source License 1.1; Change Date: earlier of 2023-01-27 or v3-license-date.aave.eth; Change License: MIT
+  GNU Affero General Public License v3.0
+  Copyright 2022 Aave
+
+spark-rewards
+GNU Affero General Public License v3.0
+
+spark-savings
+
+  spark-psm
+  GNU Affero General Public License v3.0
+
+  spark-savings-intents
+  GNU Affero General Public License v3.0
+
+  spark-vaults
+  GNU Affero General Public License v3.0
+  Copyright 2024 Dai Foundation
+  Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+  spark-vaults-v2
+  GNU Affero General Public License v3.0
 
 star-guard
 AGPL-3.0-or-later

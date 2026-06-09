@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/line-mom/branch-master"
     checked_out_branch: master
     pinned_commit: 5935e56ac8d4d677865259e94129bf2bd3039ebf
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x9c257e5Aaf73d964aEBc2140CA38078988fB0C10'
   implementation:
     codebase: line-mom
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/line-mom/branch-master"
     source_path: src/LineMom.sol
     contract_name: LineMom
     compiler:

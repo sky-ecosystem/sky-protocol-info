@@ -1,125 +1,176 @@
-[submodule "modules/capital-allocation/dss-allocator/branch-dev"]
-	path = modules/capital-allocation/dss-allocator/branch-dev
+[submodule "modules/capital-allocation/dss-allocator/codebases/dss-allocator/branch-dev"]
+	path = modules/capital-allocation/dss-allocator/codebases/dss-allocator/branch-dev
 	url = https://github.com/sky-ecosystem/dss-allocator
 	branch = dev
-[submodule "modules/chain-bridges/arbitrum-dai-bridge/branch-master"]
-	path = modules/chain-bridges/arbitrum-dai-bridge/branch-master
+[submodule "modules/chain-bridges/arbitrum-dai-bridge/codebases/arbitrum-dai-bridge/branch-master"]
+	path = modules/chain-bridges/arbitrum-dai-bridge/codebases/arbitrum-dai-bridge/branch-master
 	url = https://github.com/sky-ecosystem/arbitrum-dai-bridge
 	branch = master
-[submodule "modules/chain-bridges/arbitrum-token-bridge/branch-master"]
-	path = modules/chain-bridges/arbitrum-token-bridge/branch-master
+[submodule "modules/chain-bridges/arbitrum-token-bridge/codebases/arbitrum-token-bridge/branch-master"]
+	path = modules/chain-bridges/arbitrum-token-bridge/codebases/arbitrum-token-bridge/branch-master
 	url = https://github.com/sky-ecosystem/arbitrum-token-bridge
 	branch = master
-[submodule "modules/chain-bridges/lz-governance-relay/branch-master"]
-	path = modules/chain-bridges/lz-governance-relay/branch-master
+[submodule "modules/chain-bridges/lz-governance-relay/codebases/lz-governance-relay/branch-master"]
+	path = modules/chain-bridges/lz-governance-relay/codebases/lz-governance-relay/branch-master
 	url = https://github.com/sky-ecosystem/lz-governance-relay
 	branch = master
-[submodule "modules/chain-bridges/op-token-bridge/branch-master"]
-	path = modules/chain-bridges/op-token-bridge/branch-master
+[submodule "modules/chain-bridges/op-token-bridge/codebases/op-token-bridge/branch-master"]
+	path = modules/chain-bridges/op-token-bridge/codebases/op-token-bridge/branch-master
 	url = https://github.com/sky-ecosystem/op-token-bridge
 	branch = master
-[submodule "modules/chain-bridges/optimism-dai-bridge/branch-master"]
-	path = modules/chain-bridges/optimism-dai-bridge/branch-master
+[submodule "modules/chain-bridges/optimism-dai-bridge/codebases/optimism-dai-bridge/branch-master"]
+	path = modules/chain-bridges/optimism-dai-bridge/codebases/optimism-dai-bridge/branch-master
 	url = https://github.com/sky-ecosystem/optimism-dai-bridge
 	branch = master
-[submodule "modules/chain-bridges/sky-oapp-oft/branch-main"]
-	path = modules/chain-bridges/sky-oapp-oft/branch-main
+[submodule "modules/chain-bridges/sky-oapp-oft/codebases/sky-oapp-oft/branch-main"]
+	path = modules/chain-bridges/sky-oapp-oft/codebases/sky-oapp-oft/branch-main
 	url = https://github.com/sky-ecosystem/sky-oapp-oft
 	branch = main
-[submodule "modules/collateral-risk/clipper-mom/branch-master"]
-	path = modules/collateral-risk/clipper-mom/branch-master
+[submodule "modules/collateral-risk/clipper-mom/codebases/clipper-mom/branch-master"]
+	path = modules/collateral-risk/clipper-mom/codebases/clipper-mom/branch-master
 	url = https://github.com/sky-ecosystem/clipper-mom
 	branch = master
-[submodule "modules/collateral-risk/dss-auto-line/branch-master"]
-	path = modules/collateral-risk/dss-auto-line/branch-master
+[submodule "modules/collateral-risk/dss-auto-line/codebases/dss-auto-line/branch-master"]
+	path = modules/collateral-risk/dss-auto-line/codebases/dss-auto-line/branch-master
 	url = https://github.com/sky-ecosystem/dss-auto-line
 	branch = master
-[submodule "modules/collateral-risk/line-mom/branch-master"]
-	path = modules/collateral-risk/line-mom/branch-master
+[submodule "modules/collateral-risk/line-mom/codebases/line-mom/branch-master"]
+	path = modules/collateral-risk/line-mom/codebases/line-mom/branch-master
 	url = https://github.com/sky-ecosystem/line-mom
 	branch = master
-[submodule "modules/collateral-risk/osm/branch-master"]
-	path = modules/collateral-risk/osm/branch-master
+[submodule "modules/collateral-risk/osm/codebases/osm/branch-master"]
+	path = modules/collateral-risk/osm/codebases/osm/branch-master
 	url = https://github.com/sky-ecosystem/osm
 	branch = master
-[submodule "modules/collateral-risk/sp-beam/branch-master"]
-	path = modules/collateral-risk/sp-beam/branch-master
+[submodule "modules/collateral-risk/sp-beam/codebases/sp-beam/branch-master"]
+	path = modules/collateral-risk/sp-beam/codebases/sp-beam/branch-master
 	url = https://github.com/sky-ecosystem/sp-beam
 	branch = master
-[submodule "modules/core-system/dss/branch-master"]
-	path = modules/core-system/dss/branch-master
+[submodule "modules/core-system/dss/codebases/dss/branch-master"]
+	path = modules/core-system/dss/codebases/dss/branch-master
 	url = https://github.com/sky-ecosystem/dss
 	branch = master
-[submodule "modules/core-system/dss/branch-v1.2"]
-	path = modules/core-system/dss/branch-v1.2
+[submodule "modules/core-system/dss/codebases/dss/branch-v1.2"]
+	path = modules/core-system/dss/codebases/dss/branch-v1.2
 	url = https://github.com/sky-ecosystem/dss
 	branch = v1.2
-[submodule "modules/governance-control/chief/branch-master"]
-	path = modules/governance-control/chief/branch-master
+[submodule "modules/governance-control/chief/codebases/chief/branch-master"]
+	path = modules/governance-control/chief/codebases/chief/branch-master
 	url = https://github.com/sky-ecosystem/chief
 	branch = master
-[submodule "modules/governance-control/ds-pause/branch-master"]
-	path = modules/governance-control/ds-pause/branch-master
+[submodule "modules/governance-control/ds-pause/codebases/ds-pause/branch-master"]
+	path = modules/governance-control/ds-pause/codebases/ds-pause/branch-master
 	url = https://github.com/sky-ecosystem/ds-pause
 	branch = master
-[submodule "modules/governance-control/star-guard/branch-main"]
-	path = modules/governance-control/star-guard/branch-main
+[submodule "modules/governance-control/star-guard/codebases/star-guard/branch-main"]
+	path = modules/governance-control/star-guard/codebases/star-guard/branch-main
 	url = https://github.com/sky-ecosystem/star-guard
 	branch = main
-[submodule "modules/governance-control/vote-delegate/branch-master"]
-	path = modules/governance-control/vote-delegate/branch-master
+[submodule "modules/governance-control/vote-delegate/codebases/vote-delegate/branch-master"]
+	path = modules/governance-control/vote-delegate/codebases/vote-delegate/branch-master
 	url = https://github.com/sky-ecosystem/vote-delegate
 	branch = master
-[submodule "modules/savings-and-staking/lockstake/branch-master"]
-	path = modules/savings-and-staking/lockstake/branch-master
+[submodule "modules/savings-and-staking/lockstake/codebases/lockstake/branch-master"]
+	path = modules/savings-and-staking/lockstake/codebases/lockstake/branch-master
 	url = https://github.com/sky-ecosystem/lockstake
 	branch = master
-[submodule "modules/savings-and-staking/stusds/branch-master"]
-	path = modules/savings-and-staking/stusds/branch-master
+[submodule "modules/savings-and-staking/stusds/codebases/stusds/branch-master"]
+	path = modules/savings-and-staking/stusds/codebases/stusds/branch-master
 	url = https://github.com/sky-ecosystem/stusds
 	branch = master
-[submodule "modules/savings-and-staking/susds/branch-susds"]
-	path = modules/savings-and-staking/susds/branch-susds
+[submodule "modules/savings-and-staking/susds/codebases/sdai/branch-susds"]
+	path = modules/savings-and-staking/susds/codebases/sdai/branch-susds
 	url = https://github.com/sky-ecosystem/sdai
 	branch = susds
-[submodule "modules/surplus-and-rewards/dss-flappers/branch-master"]
-	path = modules/surplus-and-rewards/dss-flappers/branch-master
+[submodule "modules/surplus-and-rewards/dss-flappers/codebases/dss-flappers/branch-master"]
+	path = modules/surplus-and-rewards/dss-flappers/codebases/dss-flappers/branch-master
 	url = https://github.com/sky-ecosystem/dss-flappers
 	branch = master
-[submodule "modules/surplus-and-rewards/dss-vest/branch-master"]
-	path = modules/surplus-and-rewards/dss-vest/branch-master
+[submodule "modules/surplus-and-rewards/dss-vest/codebases/dss-vest/branch-master"]
+	path = modules/surplus-and-rewards/dss-vest/codebases/dss-vest/branch-master
 	url = https://github.com/sky-ecosystem/dss-vest
 	branch = master
-[submodule "modules/surplus-and-rewards/endgame-toolkit/branch-master"]
-	path = modules/surplus-and-rewards/endgame-toolkit/branch-master
+[submodule "modules/surplus-and-rewards/endgame-toolkit/codebases/endgame-toolkit/branch-master"]
+	path = modules/surplus-and-rewards/endgame-toolkit/codebases/endgame-toolkit/branch-master
 	url = https://github.com/sky-ecosystem/endgame-toolkit
 	branch = master
-[submodule "modules/tokens-and-liquidity/dss-flash/branch-master"]
-	path = modules/tokens-and-liquidity/dss-flash/branch-master
+[submodule "modules/tokens-and-liquidity/dss-flash/codebases/dss-flash/branch-master"]
+	path = modules/tokens-and-liquidity/dss-flash/codebases/dss-flash/branch-master
 	url = https://github.com/sky-ecosystem/dss-flash
 	branch = master
-[submodule "modules/tokens-and-liquidity/dss-lite-psm/branch-main"]
-	path = modules/tokens-and-liquidity/dss-lite-psm/branch-main
+[submodule "modules/tokens-and-liquidity/dss-lite-psm/codebases/dss-lite-psm/branch-main"]
+	path = modules/tokens-and-liquidity/dss-lite-psm/codebases/dss-lite-psm/branch-main
 	url = https://github.com/sky-ecosystem/dss-lite-psm
 	branch = main
-[submodule "modules/tokens-and-liquidity/sky/branch-master"]
-	path = modules/tokens-and-liquidity/sky/branch-master
+[submodule "modules/tokens-and-liquidity/sky/codebases/sky/branch-master"]
+	path = modules/tokens-and-liquidity/sky/codebases/sky/branch-master
 	url = https://github.com/sky-ecosystem/sky
 	branch = master
-[submodule "modules/tokens-and-liquidity/spark-psm/branch-master"]
-	path = modules/tokens-and-liquidity/spark-psm/branch-master
-	url = https://github.com/sparkdotfi/spark-psm
-	branch = master
-[submodule "modules/tokens-and-liquidity/usds/branch-master"]
-	path = modules/tokens-and-liquidity/usds/branch-master
+[submodule "modules/tokens-and-liquidity/usds/codebases/usds/branch-master"]
+	path = modules/tokens-and-liquidity/usds/codebases/usds/branch-master
 	url = https://github.com/sky-ecosystem/usds
 	branch = master
-[submodule "modules/chain-bridges/lz-governance-relay/commit-d3e3-d4ef"]
-	path = modules/chain-bridges/lz-governance-relay/commit-d3e3-d4ef
+[submodule "modules/chain-bridges/lz-governance-relay/codebases/lz-governance-relay/commit-d3e3-d4ef"]
+	path = modules/chain-bridges/lz-governance-relay/codebases/lz-governance-relay/commit-d3e3-d4ef
 	url = https://github.com/sky-ecosystem/lz-governance-relay
-[submodule "modules/governance-control/ds-pause/commit-81fd-ce3"]
-	path = modules/governance-control/ds-pause/commit-81fd-ce3
+[submodule "modules/governance-control/ds-pause/codebases/ds-pause/commit-81fd-ce3"]
+	path = modules/governance-control/ds-pause/codebases/ds-pause/commit-81fd-ce3
 	url = https://github.com/sky-ecosystem/ds-pause
-[submodule "modules/surplus-and-rewards/endgame-toolkit/commit-70b5-a95"]
-	path = modules/surplus-and-rewards/endgame-toolkit/commit-70b5-a95
+[submodule "modules/surplus-and-rewards/endgame-toolkit/codebases/endgame-toolkit/commit-70b5-a95"]
+	path = modules/surplus-and-rewards/endgame-toolkit/codebases/endgame-toolkit/commit-70b5-a95
 	url = https://github.com/sky-ecosystem/endgame-toolkit
+[submodule "modules/spark/spark-alm-controller/codebases/spark-alm-controller/branch-dev"]
+	path = modules/spark/spark-alm-controller/codebases/spark-alm-controller/branch-dev
+	url = https://github.com/sparkdotfi/spark-alm-controller
+	branch = dev
+[submodule "modules/spark/spark-savings/codebases/spark-vaults-v2/branch-dev"]
+	path = modules/spark/spark-savings/codebases/spark-vaults-v2/branch-dev
+	url = https://github.com/sparkdotfi/spark-vaults-v2
+	branch = dev
+[submodule "modules/spark/spark-savings/codebases/spark-vaults/branch-master"]
+	path = modules/spark/spark-savings/codebases/spark-vaults/branch-master
+	url = https://github.com/sparkdotfi/spark-vaults
+	branch = master
+[submodule "modules/spark/spark-savings/codebases/spark-savings-intents/branch-master"]
+	path = modules/spark/spark-savings/codebases/spark-savings-intents/branch-master
+	url = https://github.com/sparkdotfi/spark-savings-intents
+	branch = master
+[submodule "modules/spark/spark-savings/codebases/spark-psm/branch-master"]
+	path = modules/spark/spark-savings/codebases/spark-psm/branch-master
+	url = https://github.com/sparkdotfi/spark-psm
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-v1-core/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-v1-core/branch-master
+	url = https://github.com/sparkdotfi/sparklend-v1-core
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-advanced/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-advanced/branch-master
+	url = https://github.com/sparkdotfi/sparklend-advanced
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-cap-automator/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-cap-automator/branch-master
+	url = https://github.com/sparkdotfi/sparklend-cap-automator
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-freezer/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-freezer/branch-master
+	url = https://github.com/sparkdotfi/sparklend-freezer
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-kill-switch/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-kill-switch/branch-master
+	url = https://github.com/sparkdotfi/sparklend-kill-switch
+	branch = master
+[submodule "modules/spark/spark-lend/codebases/sparklend-testing/branch-master"]
+	path = modules/spark/spark-lend/codebases/sparklend-testing/branch-master
+	url = https://github.com/sparkdotfi/sparklend-testing
+	branch = master
+[submodule "modules/spark/spark-governance/codebases/spark-gov-relay/branch-master"]
+	path = modules/spark/spark-governance/codebases/spark-gov-relay/branch-master
+	url = https://github.com/sparkdotfi/spark-gov-relay
+	branch = master
+[submodule "modules/spark/spark-rewards/codebases/spark-rewards/branch-master"]
+	path = modules/spark/spark-rewards/codebases/spark-rewards/branch-master
+	url = https://github.com/sparkdotfi/spark-rewards
+	branch = master
+[submodule "modules/spark/spark-governance/codebases/xchain-helpers/commit-33baf1e"]
+	path = modules/spark/spark-governance/codebases/xchain-helpers/commit-33baf1e
+	url = https://github.com/marsfoundation/xchain-helpers

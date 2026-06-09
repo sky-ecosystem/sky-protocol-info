@@ -13,7 +13,7 @@ repositories:
   source_code_roots:
   - src
   checkout:
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/arbitrum-token-bridge/branch-master"
     checked_out_branch: master
     pinned_commit: beb73666df3e7d15797720c6bdabad5b554678e8
 ```
@@ -30,7 +30,7 @@ deployments:
   address: '0x12eDe82637d5507026D4CDb3515B4b022Ed157b1'
   implementation:
     codebase: arbitrum-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/arbitrum-token-bridge/branch-master"
     source_path: src/L1TokenGateway.sol
     contract_name: L1TokenGateway
     compiler:
@@ -46,7 +46,7 @@ deployments:
   address: '0xD404eD36D6976BdCad8ABbcCC9F09ef07e33A9A8'
   implementation:
     codebase: arbitrum-token-bridge
-    submodule_path: "./branch-master"
+    submodule_path: "./codebases/arbitrum-token-bridge/branch-master"
     source_path: src/L2TokenGateway.sol
     contract_name: L2TokenGateway
 ```
