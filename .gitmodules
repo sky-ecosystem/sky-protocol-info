@@ -174,3 +174,11 @@
 [submodule "modules/spark/spark-governance/codebases/xchain-helpers/commit-33baf1e"]
 	path = modules/spark/spark-governance/codebases/xchain-helpers/commit-33baf1e
 	url = https://github.com/marsfoundation/xchain-helpers
+[submodule "modules/capital-allocation/diamond-pau/codebases/diamond-pau/branch-dev"]
+	path = modules/capital-allocation/diamond-pau/codebases/diamond-pau/branch-dev
+	url = https://github.com/sky-ecosystem/diamond-pau
+	branch = dev
+[submodule "modules/capital-allocation/diamond-pau/codebases/pau-administered-agent/branch-master"]
+	path = modules/capital-allocation/diamond-pau/codebases/pau-administered-agent/branch-master
+	url = https://github.com/sky-ecosystem/pau-administered-agent
+	branch = master

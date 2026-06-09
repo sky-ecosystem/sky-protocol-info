@@ -6,6 +6,7 @@ Tracks public records for Sky Protocol modules.
 
 ### Capital Allocation
 
+- [diamond-pau](modules/capital-allocation/diamond-pau/)
 - [dss-allocator](modules/capital-allocation/dss-allocator/)
 
 ### Chain Bridges
