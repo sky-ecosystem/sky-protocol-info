@@ -1,0 +1,137 @@
+# Sky Protocol Module Licenses
+
+arbitrum-dai-bridge
+GNU Affero General Public License v3.0
+Copyright 2021 Dai Foundation
+Copyright 2021, Offchain Labs, Inc.
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+arbitrum-token-bridge
+GNU Affero General Public License v3.0
+Copyright 2024 Dai Foundation
+Copyright 2019-2021, Offchain Labs, Inc.
+
+chief
+GNU General Public License v3.0
+Copyright 2023 Dai Foundation
+Copyright 2017 DappHub, LLC
+
+clipper-mom
+GNU Affero General Public License v3.0
+Copyright 2021 Maker Ecosystem Growth Holdings, INC.
+
+ds-pause
+GNU Affero General Public License v3.0
+Copyright 2019 David Terry <me@xwvvvvwx.com>
+
+dss
+GNU Affero General Public License v3.0
+Copyright 2020-2022 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+Copyright 2018 Lev Livnev <lev@liv.nev.org.uk>
+Copyright 2018 Rain <rainbreak@riseup.net>
+
+dss-allocator
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation <www.daifoundation.org>
+Copyright 2021 Dai Foundation <www.daifoundation.org>
+Copyright 2020 Lev Livnev <lev@liv.nev.org.uk>
+Copyright 2017 DappHub, LLC
+
+dss-auto-line
+GNU Affero General Public License v3.0
+Copyright 2018-2020 Maker Ecosystem Growth Holdings, INC.
+
+dss-flappers
+GNU Affero General Public License v3.0
+Copyright 2025 Dai Foundation <www.daifoundation.org>
+Copyright 2023 Dai Foundation <www.daifoundation.org>
+
+dss-flash
+GNU Affero General Public License v3.0
+Copyright 2021 Dai Foundation
+
+dss-lite-psm
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation <www.daifoundation.org>
+
+dss-vest
+GNU Affero General Public License v3.0
+Copyright 2021 Dai Foundation
+
+endgame-toolkit
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation <www.daifoundation.org>
+Copyright 2019-2021 Synthetix
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+line-mom
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation
+
+lockstake
+GNU Affero General Public License v3.0
+Copyright 2025 Dai Foundation <www.daifoundation.org>
+Copyright 2023 Dai Foundation
+Copyright 2021 Dai Foundation <www.daifoundation.org>
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+lz-governance-relay
+GNU Affero General Public License v3.0
+Copyright 2025 Dai Foundation
+
+op-token-bridge
+GNU Affero General Public License v3.0
+Copyright 2024 Dai Foundation
+
+optimism-dai-bridge
+GNU Affero General Public License v3.0
+Copyright 2021 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+osm
+GNU Affero General Public License v3.0
+Copyright 2018-2020 Maker Ecosystem Growth Holdings, INC.
+
+sky
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+sky-oapp-oft
+Apache License 2.0
+Modifications Copyright 2025 LayerZero Labs
+Copyright 2022 Wormhole Project Contributors
+
+sp-beam
+AGPL-3.0-or-later
+Copyright 2025 Dai Foundation <www.daifoundation.org>
+
+spark-psm
+GNU Affero General Public License v3.0
+
+star-guard
+AGPL-3.0-or-later
+Copyright 2025 Dai Foundation <www.daifoundation.org>
+
+stusds
+GNU Affero General Public License v3.0
+Copyright 2025 Dai Foundation <www.daifoundation.org>
+Copyright 2021 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+susds
+GNU Affero General Public License v3.0
+Copyright 2024 Dai Foundation
+Copyright 2021 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+
+usds
+GNU Affero General Public License v3.0
+Copyright 2023 Dai Foundation
+Copyright 2017, 2018, 2019 dbrock, rain, mrchico
+Copyright 2018 Rain <rainbreak@riseup.net>
+
+vote-delegate
+GNU Affero General Public License v3.0
+Copyright 2021 Dai Foundation <www.daifoundation.org>

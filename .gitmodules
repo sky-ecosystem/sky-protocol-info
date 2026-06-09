@@ -1,0 +1,125 @@
+[submodule "modules/capital-allocation/dss-allocator/branch-dev"]
+	path = modules/capital-allocation/dss-allocator/branch-dev
+	url = https://github.com/sky-ecosystem/dss-allocator
+	branch = dev
+[submodule "modules/chain-bridges/arbitrum-dai-bridge/branch-master"]
+	path = modules/chain-bridges/arbitrum-dai-bridge/branch-master
+	url = https://github.com/sky-ecosystem/arbitrum-dai-bridge
+	branch = master
+[submodule "modules/chain-bridges/arbitrum-token-bridge/branch-master"]
+	path = modules/chain-bridges/arbitrum-token-bridge/branch-master
+	url = https://github.com/sky-ecosystem/arbitrum-token-bridge
+	branch = master
+[submodule "modules/chain-bridges/lz-governance-relay/branch-master"]
+	path = modules/chain-bridges/lz-governance-relay/branch-master
+	url = https://github.com/sky-ecosystem/lz-governance-relay
+	branch = master
+[submodule "modules/chain-bridges/op-token-bridge/branch-master"]
+	path = modules/chain-bridges/op-token-bridge/branch-master
+	url = https://github.com/sky-ecosystem/op-token-bridge
+	branch = master
+[submodule "modules/chain-bridges/optimism-dai-bridge/branch-master"]
+	path = modules/chain-bridges/optimism-dai-bridge/branch-master
+	url = https://github.com/sky-ecosystem/optimism-dai-bridge
+	branch = master
+[submodule "modules/chain-bridges/sky-oapp-oft/branch-main"]
+	path = modules/chain-bridges/sky-oapp-oft/branch-main
+	url = https://github.com/sky-ecosystem/sky-oapp-oft
+	branch = main
+[submodule "modules/collateral-risk/clipper-mom/branch-master"]
+	path = modules/collateral-risk/clipper-mom/branch-master
+	url = https://github.com/sky-ecosystem/clipper-mom
+	branch = master
+[submodule "modules/collateral-risk/dss-auto-line/branch-master"]
+	path = modules/collateral-risk/dss-auto-line/branch-master
+	url = https://github.com/sky-ecosystem/dss-auto-line
+	branch = master
+[submodule "modules/collateral-risk/line-mom/branch-master"]
+	path = modules/collateral-risk/line-mom/branch-master
+	url = https://github.com/sky-ecosystem/line-mom
+	branch = master
+[submodule "modules/collateral-risk/osm/branch-master"]
+	path = modules/collateral-risk/osm/branch-master
+	url = https://github.com/sky-ecosystem/osm
+	branch = master
+[submodule "modules/collateral-risk/sp-beam/branch-master"]
+	path = modules/collateral-risk/sp-beam/branch-master
+	url = https://github.com/sky-ecosystem/sp-beam
+	branch = master
+[submodule "modules/core-system/dss/branch-master"]
+	path = modules/core-system/dss/branch-master
+	url = https://github.com/sky-ecosystem/dss
+	branch = master
+[submodule "modules/core-system/dss/branch-v1.2"]
+	path = modules/core-system/dss/branch-v1.2
+	url = https://github.com/sky-ecosystem/dss
+	branch = v1.2
+[submodule "modules/governance-control/chief/branch-master"]
+	path = modules/governance-control/chief/branch-master
+	url = https://github.com/sky-ecosystem/chief
+	branch = master
+[submodule "modules/governance-control/ds-pause/branch-master"]
+	path = modules/governance-control/ds-pause/branch-master
+	url = https://github.com/sky-ecosystem/ds-pause
+	branch = master
+[submodule "modules/governance-control/star-guard/branch-main"]
+	path = modules/governance-control/star-guard/branch-main
+	url = https://github.com/sky-ecosystem/star-guard
+	branch = main
+[submodule "modules/governance-control/vote-delegate/branch-master"]
+	path = modules/governance-control/vote-delegate/branch-master
+	url = https://github.com/sky-ecosystem/vote-delegate
+	branch = master
+[submodule "modules/savings-and-staking/lockstake/branch-master"]
+	path = modules/savings-and-staking/lockstake/branch-master
+	url = https://github.com/sky-ecosystem/lockstake
+	branch = master
+[submodule "modules/savings-and-staking/stusds/branch-master"]
+	path = modules/savings-and-staking/stusds/branch-master
+	url = https://github.com/sky-ecosystem/stusds
+	branch = master
+[submodule "modules/savings-and-staking/susds/branch-susds"]
+	path = modules/savings-and-staking/susds/branch-susds
+	url = https://github.com/sky-ecosystem/sdai
+	branch = susds
+[submodule "modules/surplus-and-rewards/dss-flappers/branch-master"]
+	path = modules/surplus-and-rewards/dss-flappers/branch-master
+	url = https://github.com/sky-ecosystem/dss-flappers
+	branch = master
+[submodule "modules/surplus-and-rewards/dss-vest/branch-master"]
+	path = modules/surplus-and-rewards/dss-vest/branch-master
+	url = https://github.com/sky-ecosystem/dss-vest
+	branch = master
+[submodule "modules/surplus-and-rewards/endgame-toolkit/branch-master"]
+	path = modules/surplus-and-rewards/endgame-toolkit/branch-master
+	url = https://github.com/sky-ecosystem/endgame-toolkit
+	branch = master
+[submodule "modules/tokens-and-liquidity/dss-flash/branch-master"]
+	path = modules/tokens-and-liquidity/dss-flash/branch-master
+	url = https://github.com/sky-ecosystem/dss-flash
+	branch = master
+[submodule "modules/tokens-and-liquidity/dss-lite-psm/branch-main"]
+	path = modules/tokens-and-liquidity/dss-lite-psm/branch-main
+	url = https://github.com/sky-ecosystem/dss-lite-psm
+	branch = main
+[submodule "modules/tokens-and-liquidity/sky/branch-master"]
+	path = modules/tokens-and-liquidity/sky/branch-master
+	url = https://github.com/sky-ecosystem/sky
+	branch = master
+[submodule "modules/tokens-and-liquidity/spark-psm/branch-master"]
+	path = modules/tokens-and-liquidity/spark-psm/branch-master
+	url = https://github.com/sparkdotfi/spark-psm
+	branch = master
+[submodule "modules/tokens-and-liquidity/usds/branch-master"]
+	path = modules/tokens-and-liquidity/usds/branch-master
+	url = https://github.com/sky-ecosystem/usds
+	branch = master
+[submodule "modules/chain-bridges/lz-governance-relay/commit-d3e3-d4ef"]
+	path = modules/chain-bridges/lz-governance-relay/commit-d3e3-d4ef
+	url = https://github.com/sky-ecosystem/lz-governance-relay
+[submodule "modules/governance-control/ds-pause/commit-81fd-ce3"]
+	path = modules/governance-control/ds-pause/commit-81fd-ce3
+	url = https://github.com/sky-ecosystem/ds-pause
+[submodule "modules/surplus-and-rewards/endgame-toolkit/commit-70b5-a95"]
+	path = modules/surplus-and-rewards/endgame-toolkit/commit-70b5-a95
+	url = https://github.com/sky-ecosystem/endgame-toolkit
