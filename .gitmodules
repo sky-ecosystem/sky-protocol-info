@@ -182,3 +182,7 @@
 	path = modules/capital-allocation/diamond-pau/codebases/pau-administered-agent/branch-master
 	url = https://github.com/sky-ecosystem/pau-administered-agent
 	branch = master
+[submodule "modules/grove/grove-basin/codebases/grove-basin/branch-main"]
+	path = modules/grove/grove-basin/codebases/grove-basin/branch-main
+	url = https://github.com/grove-labs/grove-basin
+	branch = main

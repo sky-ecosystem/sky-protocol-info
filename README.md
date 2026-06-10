@@ -37,6 +37,10 @@ Tracks public records for Sky Protocol modules.
 - [star-guard](modules/governance-control/star-guard/)
 - [vote-delegate](modules/governance-control/vote-delegate/)
 
+### Grove
+
+- [grove-basin](modules/grove/grove-basin/)
+
 ### Savings and Staking
 
 - [lockstake](modules/savings-and-staking/lockstake/)
